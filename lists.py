@@ -33,5 +33,5 @@ def list_of_lists(list_of_lists_to_modify):
     list_1 = list_of_lists_to_modify[0][::2]
     list_2 = list_of_lists_to_modify[1][2:5]
     list_3 = list_of_lists_to_modify[2][-2]
-    
-    return 
+    final_list = [list_1, list_2, list_3]
+    return final_list
