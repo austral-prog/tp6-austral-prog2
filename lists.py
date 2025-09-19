@@ -1,7 +1,10 @@
 def remove_elements(list_to_remove_elements):
-    del list_to_remove_elements[5]
-    del list_to_remove_elements[4]
-    del list_to_remove_elements[0]
+    if len(list_to_remove_elements) >= 6:
+        del list_to_remove_elements[5]
+    if len(list_to_remove_elements) >= 5:
+        del list_to_remove_elements[4]
+    if len(list_to_remove_elements >= 1:
+        del list_to_remove_elements[0]
     return list_to_remove_elements
 
 
@@ -19,8 +22,13 @@ def is_empty(list_to_check):
 
 
 def check_lists(list_to_compare1, list_to_compare2):
-    return 
+    if list_to_compare1 >= 3 and list_to_compare2 >= 3:
+        if list_to_compare1[2] == list_to_compare2[2]:
+            return True
+            if (list_to_compare1[2] == "") or (list_to_compare2[2] == ""):
+                return False
 
 
 def list_of_lists(list_of_lists_to_modify):
+    
     return 
