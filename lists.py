@@ -1,16 +1,16 @@
 def remove_elements(list_to_remove_elements):
-    if len(list_to_remove_elements) >= 6:
-        del list_to_remove_elements[5]
     if len(list_to_remove_elements) >= 5:
+        del list_to_remove_elements[5]
+    if len(list_to_remove_elements) >= 4:
         del list_to_remove_elements[4]
-    if len(list_to_remove_elements >= 1:
+    if len(list_to_remove_elements >= 0:
         del list_to_remove_elements[0]
     return list_to_remove_elements
 
 
 def add_elements(list_to_add_elements):
-    list_to_add_elements = insert(0, 'Pink')
-    list_to_add_elements = append('Yellow')
+    list_to_add_elements.insert(0, 'Pink')
+    list_to_add_elements.append('Yellow')
     return list_to_add_elements
 
 
