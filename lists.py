@@ -1,4 +1,7 @@
 def remove_elements(list_to_remove_elements):
+    del list_to_remove_elements[5]
+    del list_to_remove_elements[4]
+    del list_to_remove_elements[0]
     return 
 
 
